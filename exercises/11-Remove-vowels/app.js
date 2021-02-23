@@ -5,6 +5,13 @@ const rapid = (myString) => {
         if(['a','e','i','o','u'].includes(myString[position]) == false)
             consonants.push(myString[position])
     }
+
+
+
+//     var str = "Hello World!";
+// var res = str.toUpperCase();
+
+
     return consonants.join('');
 }
 
